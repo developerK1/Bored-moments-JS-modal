@@ -83,3 +83,24 @@ button:focus {
 	font-weight : 600;
 	letter-spacing : 2px;
 }
+/* ===============================
+				RESPONSE SCREENS
+================================ */
+@media (max-width :  950px) {
+	.modal .container {
+		max-width : 800px;
+	}
+}
+
+@media (max-width :  750px) {
+	.modal .container {
+		max-width : 680px;
+	}
+}
+
+
+@media (max-width :  550px) {
+	.modal .container {
+		width : 96%;
+	}
+}
