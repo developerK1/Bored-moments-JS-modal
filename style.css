@@ -1,0 +1,106 @@
+*{
+	box-sizing : border-box;
+	margin : 0px;
+	padding : 0px;
+}
+main {
+	position : relative;
+}
+section {
+	height : 100vh;
+	width : 100vw;
+
+}
+.modal {
+	width : 100vw;
+	height : 100vh;
+	display :none;
+	justify-content : center;
+	align-items : center;
+	flex-direction :column;
+	position :absolute;
+	top : 0;
+	background-color :rgb(255 87 34 / 60%);
+	z-index : 10;
+}
+.modal .container {
+	padding : 1%;
+	width : 70%;
+	border : 3px solid black;
+	background-color : #000000;
+	color : white;
+	box-shadow: 20px 26px 25px #040403;
+}
+.modal .container p:nth-child(1){
+	width : 100%;
+	display :flex;
+	justify-content : flex-end;
+}
+.modal span {
+	font-size : 38px;
+	font-weight : 800;
+	cursor : pointer;
+	margin-right : 30px;
+}
+.modal h2 {
+	font-size : 26px;
+	text-align : center;
+	margin-bottom : 20px;
+
+}
+.modal .p{
+	padding: 3%;
+	font-size : 20px;
+}
+aside , article {
+	display :flex;
+	margin : 0px auto;
+}
+.btn {
+	width : 100%;
+	display:flex;
+	height : 20vh;
+	padding-top : 50px;
+}
+button {
+	width : 200;
+	height : 60px;
+	border-radius :60px;
+	margin :auto;
+	cursor : pointer;
+	background-color : orange;
+}
+button:focus {
+	outline :none;
+	border:2px solid red;
+}
+.modal span:hover {
+	color :red;
+	box-sizing : border-box;
+}
+.btn button:hover {
+	border  : 5px solid orange;
+	font-weight : 600;
+	letter-spacing : 2px;
+}
+/* ===============================
+				RESPONSE SCREENS
+================================ */
+@media (max-width :  950px) {
+	.modal .container {
+		max-width : 800px;
+	}
+}
+
+@media (max-width :  750px) {
+	.modal .container {
+		max-width : 680px;
+	}
+}
+
+
+@media (max-width :  550px) {
+	.modal .container {
+		width : 96%;
+	}
+}
