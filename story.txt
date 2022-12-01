@@ -1,6 +1,0 @@
-Add the story on the modal
-
-The fun part is just see and do..Sometines it just simple to brush the code with something as little as a modal..
-Model is interesting because it goes as further then pop up, but also positioning of the model on top of content..
-I am glad I did this exercise because it help me brushed on my css skills that since the flexbox has made me forget a bit about it..
-Thanks box-model and positioning 
